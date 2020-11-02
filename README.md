@@ -153,12 +153,12 @@ prism.position.set( x+200, y+300, z );
 prism.rotation.x = Math.PI/-2;
 scene.add( prism );
 
-var radiusTop = 80;
+var radiusTop = 60;
 var radiusBottom = 80;
 var heigth = 190; var segments = 3;
 var geometry = new THREE.CylinderGeometry(
 radiusTop, radiusBottom, heigth, segments );
-var material = new THREE.MeshPhongMaterial( { color: 0xff0000 } );
+var material = new THREE.MeshPhongMaterial( { color: 0x964b00 } );
 var prism = new THREE.Mesh( geometry, material );
 prism.position.set( x+700, y+300, z );
 prism.rotation.x = Math.PI;
