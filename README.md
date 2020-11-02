@@ -76,7 +76,7 @@
 //  scene.add( mesh ); 
 // teapot = mesh; 
 //});
-					var x = 0;var y = -50;var z = 50;
+					var x = -100;var y = -200;var z = 300;
 					//конус
 					var radiusTop = 0; var radiusBottom = 150;
 					var heigth = 180; var segments = 4;
