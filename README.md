@@ -76,7 +76,7 @@
 //  scene.add( mesh ); 
 // teapot = mesh; 
 //});
-					var x = 0;var y = 0;var z = 0;
+					var x = 0;var y = -50;var z = 50;
 					//конус
 					var radiusTop = 0; var radiusBottom = 150;
 					var heigth = 180; var segments = 4;
@@ -154,8 +154,8 @@ prism.rotation.x = Math.PI/-2;
 scene.add( prism );
 
 var radiusTop = 60;
-var radiusBottom = 80;
-var heigth = 190; var segments = 3;
+var radiusBottom = 60;
+var heigth = 150; var segments = 3;
 var geometry = new THREE.CylinderGeometry(
 radiusTop, radiusBottom, heigth, segments );
 var material = new THREE.MeshPhongMaterial( { color: 0x964b00 } );
